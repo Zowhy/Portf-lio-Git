@@ -1,0 +1,29 @@
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: hsla(178, 100%, 50%, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.overlay img {
+    width: 40px;
+}
+
+.card-image:hover .overlay {
+    opacity: 1;
+}
+
+.card-title:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.card-creator span:hover {
+    color: hsl(178, 100%, 50%);
+}
