@@ -1,0 +1,6 @@
+/* Responsividade para dispositivos móveis */
+@media (max-width: 400px) {
+    .card {
+        max-width: 90%;
+    }
+}
